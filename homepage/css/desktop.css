@@ -1,0 +1,370 @@
+#person{
+    width: 900px;
+    margin: 0px auto;
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url("images/bg.jpg") repeat;
+
+}
+#person>div{
+    width: 100%;
+    border-bottom: 2px solid #666;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.content h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+#person #person-a{
+    width: 570px;
+}
+#person p{
+    margin-left: 10px;
+}
+#person-a p{
+    display: inline-block;
+    margin-right: 30px;
+}
+.pic{
+    float: right;
+    margin-right: 10px;
+    background: url("images/photo.png") no-repeat;
+    width: 180px;
+    height: 251px;
+    overflow: hidden;
+    background-size: 100%;
+    border: 10px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 3px #666666;
+}
+#skill{
+    position: relative;
+    height: 200px;
+}
+#skill span{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #FFF;
+    background-color: #999;
+    box-shadow: 0px 0px 3px 3px #666666;
+    position: absolute;
+    transition:all 1s 0s;
+    overflow: hidden;
+}
+#skill span:nth-child(2){
+    left: 0px;
+    top: 40px;
+}
+#skill span:nth-child(3){
+    left: 200px;
+    top: 40px;
+}
+#skill span:nth-child(4){
+    left: 400px;
+    top: 40px;
+}
+#skill span:nth-child(5){
+    left: 600px;
+    top: 40px;
+}
+#skill span:nth-child(6){
+    left: 100px;
+    top: 110px;
+}
+#skill span:nth-child(7){
+    left: 300px;
+    top: 110px;
+}
+#skill span:nth-child(8){
+    left: 500px;
+    top: 110px;
+}
+#skill span:nth-child(2):hover{
+    animation: move2 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: -50px;
+    top: -40px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move2 {
+    0%{
+        left: 0px;
+        top: 40px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: -60px;
+        top: -60px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: -50px;
+        top: -40px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span:nth-child(3):hover{
+    animation: move3 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: 150px;
+    top: -40px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move3 {
+    0%{
+        left: 200px;
+        top: 40px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: 140px;
+        top: -60px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: 150px;
+        top: -40px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span:nth-child(4):hover{
+    animation: move4 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: 350px;
+    top: -40px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move4 {
+    0%{
+        left: 400px;
+        top: 40px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: 340px;
+        top: -60px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: 350px;
+        top: -40px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span:nth-child(5):hover{
+    animation: move5 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: 550px;
+    top: -40px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move5 {
+    0%{
+        left: 600px;
+        top: 40px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: 540px;
+        top: -60px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: 550px;
+        top: -40px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span:nth-child(6):hover{
+    animation: move6 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: 50px;
+    top: 30px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move6 {
+    0%{
+        left: 100px;
+        top: 110px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: 40px;
+        top: 10px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: 50px;
+        top: 30px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span:nth-child(7):hover{
+    animation: move7 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: 250px;
+    top: 30px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move7 {
+    0%{
+        left: 300px;
+        top: 110px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: 240px;
+        top: 10px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: 250px;
+        top: 30px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span:nth-child(8):hover{
+    animation: move8 0.4s linear 0s 1 alternate;
+    width: 250px;
+    height: 190px;
+    left: 450px;
+    top: 30px;
+    z-index: 99;
+    box-shadow: 0px 0px 7px 7px #666666;
+}
+
+@keyframes move8 {
+    0%{
+        left: 500px;
+        top: 110px;
+        width: 150px;
+        height: 30px;
+    }
+    50%{
+        left: 440px;
+        top: 10px;
+        width: 270px;
+        height: 230px;
+    }
+    100%{
+        left: 450px;
+        top: 30px;
+        width: 250px;
+        height: 190px;
+    }
+}
+
+#skill span div p{
+    color: #fff;
+    font-size: 14px;
+}
+#skill span div{
+    position: absolute;
+    left: -2px;
+    top: 44px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    color: #fff;
+    /*display: none;*/
+}
+
+#project a{
+    width: 200px;
+    height: 230px;
+    margin: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 10px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 3px #666666;
+    transition: all 0.5s;
+    background-color: black;
+    position: relative;
+}
+#project a img{
+    width: 180px;
+    height: 210px;
+    background-color: black;
+    transition: all 0.5s;
+}
+#project a:hover{
+    transform: scale(1.1, 1.1);
+}
+#project a:hover img{
+    opacity: 0.3;
+}
+
+#project p {
+    width: 235px;
+    display: inline-block;
+    text-align: center;
+}
+#project div{
+    width: 150px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0;
+    font-size: 18px;
+    transition: all 0.5s;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+#project a:hover div{
+    top: 100px;
+    opacity: 1;
+}

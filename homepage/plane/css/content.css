@@ -1,0 +1,159 @@
+#player{
+    background: url(images/Player.png);
+    width: 80px;
+    height: 51px;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    display: none;
+}
+#player-b{
+    background: url(images/boom2.png) 0px 0px no-repeat ;
+    width: 42px;
+    height: 43px;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    z-index: 10;
+}
+#player-c{
+    background: url(images/boom2.png) 0px 0px no-repeat ;
+    width: 42px;
+    height: 43px;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    z-index: 10;
+}
+#bu1{
+    position: absolute;
+    top: -1000px;
+    left: 0px;
+    width: 17px;
+    height: 30px;
+    background: url(images/projectile.png) repeat-x;
+    display: none;
+}
+#bu2{
+    position: absolute;
+    top: -1000px;
+    left: 0px;
+    width: 17px;
+    height: 30px;
+    background: url(images/projectile.png) repeat-x;
+    display: none;
+}
+#bu3{
+    position: absolute;
+    top: -1000px;
+    left: 0px;
+    width: 17px;
+    height: 30px;
+    background: url(images/projectile.png) repeat-x;
+    display: none;
+}
+.plane-d{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
+#plane1{
+    width: 106px;
+    height: 80px;
+    background: url(images/plane1.png) -179px -174px no-repeat;
+}
+#plane2{
+    width: 109px;
+    height: 83px;
+    background: url(images/plane1.png) -403px -163px no-repeat;
+}
+#plane3{
+    width: 108px;
+    height: 83px;
+    background: url(images/plane1.png) -45px -233px no-repeat;
+}
+#plane4{
+    width: 115px;
+    height: 92px;
+    background: url(images/plane1.png) -4px -318px no-repeat;
+}
+#plane5{
+    width: 95px;
+    height: 89px;
+    background: url(images/plane1.png) -417px -72px no-repeat;
+}
+.plane-zd{
+    background: url(images/zidan.png) no-repeat;
+    width: 17px;
+    height: 29px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -29px;
+    top: 1000px;
+    left: -100px;
+}
+#strong{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+}
+#player div{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+}
+#score{
+    width: 600px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 26px;
+    line-height: 30px;
+}
+p{
+    float: left;
+    font-size: 26px;
+    color: white;
+}
+
+#score img{
+    float: left;
+    height: 30px;
+}
+body div #life{
+    float: left;
+}
+.life{
+    display: block;
+    margin: 0px 10px 0px 30px;
+}
+.ste{
+    margin: 0px 10px 0px 250px;
+}
+#go{
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    background-color: black;
+    line-height:800px;
+    font-size: 50px;
+    text-align: center;
+    display: none;
+}
+#go p{
+    width: 600px;
+    height: 30px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+}

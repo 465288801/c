@@ -1,0 +1,596 @@
+h2{
+    font-size: 20px;
+    color: red;
+    font-weight: normal;
+    height: 26px;
+    margin-top: 20px;
+    padding: 0;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 18px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+}
+h4{
+    font-size: 16px;
+    color: #aaaaaa;
+    font-weight: normal;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    box-shadow: 3px 3px 3px #888;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 99;
+    line-height: 53px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.header1{
+    width: 1410px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.ht{
+    height: 27px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.hb{
+    height: 53px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.hd1{
+    float: left;
+    width: 155px;
+    box-sizing: border-box;
+}
+.hd2{
+    width: 900px;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+}
+.hd3{
+    width: 24px;
+    height: 24px;
+    margin: 14px 5px;
+    float: right;
+    box-sizing: border-box;
+}
+.hd3a{
+    width: 24px;
+    height: 24px;
+    background: url(images/xbt.png) -41px -71px no-repeat;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.hd3a:hover{
+    background: url(images/xbt.png) -41px -107px no-repeat;
+}
+.hd3a:hover .hd4{
+    opacity: 1;
+    bottom: -78px;
+}
+.kuang{
+    width: 350px;
+    height: 78px;
+    position: absolute;
+    padding: 21px 20px;
+    border: 1px solid #666666;
+    background-color: white;
+    box-sizing: border-box;
+}
+.hd4{
+    width: 350px;
+    height: 128px;
+    position: absolute;
+    right: -8px;
+    bottom: 100px;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out 0s;
+}
+
+
+.hd4 input[type=text]{
+    width: 269px;
+    height: 34px;
+    border: 1px solid skyblue;
+    float: left;
+    color: #666666;
+    font-size: 14px;
+    box-shadow: 0px 0px 3px 1px skyblue;
+}
+.hd4a{
+    width: 36px;
+    height: 36px;
+    background: url(images/xbt.png) -4px -141px no-repeat;
+    float: left;
+    margin-left: 0px;
+    border: 0px solid #000;
+}
+.hd4a:hover{
+    background: url(images/xbt.png) -46px -141px no-repeat;
+}
+.hd5{
+    position: absolute;
+    top: -16px;
+    right: 10px;
+    transform: rotate(45deg);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+}
+
+.ht a{
+    float: right;
+    margin-left: 20px;
+    line-height: 27px;
+    height: 27px;
+}
+.white,.red{
+    float: left;
+    height: 53px;
+    text-align: center;
+    margin-left: 0;
+    color: #333333;
+    font-size: 16px;
+}
+
+.hd2 ul li{
+    float: left;
+    list-style: none;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-left: 25px;
+    border-bottom: 0px solid #dd0010;
+    box-sizing: border-box;
+}
+.hd2 ul li:hover .red{
+    color: #dd0010;
+}
+.bdr:hover{
+    border-bottom: 2px solid #dd0010;
+}
+.hd2 ul li:nth-child(1){
+    margin-left: 30px;
+}
+.hd2 ul li:nth-child(1):hover .bgc2{
+    background-color: #dd0010;
+}
+.hd2 ul li:nth-child(1):hover .bgc1{
+    background-color: #dd0010;
+}
+.hd2 ul li:nth-child(1):hover .white{
+    color: white;
+}
+
+.bgc2{
+    float: left;
+    line-height: 40px;
+    width: 99px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background: #eeeeee;
+    text-align: left;
+}
+.bgc1{
+    float: left;
+    width: 14px;
+    height: 13px;
+    margin-top: 13px;
+    margin-left: 14px;
+    margin-right: 8px;
+    background: #eeeeee url(images/xbt.png) -103px -82px no-repeat;
+}
+.hb img{
+    margin-top: 8px;
+}
+/*-----------------------------------------------第一个下拉菜单开始*/
+.h-xl1 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.bdr .h-xl1 .h-xlu1 .tsa:hover{
+    color: white;
+    text-decoration: none;
+}
+.h-xl1{
+    width: 1412px;
+    height: 270px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    box-shadow: 0px 3px 1px #888 inset;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.bdr:hover .h-xl1{
+    top: 53px;
+    opacity: 1;
+}
+.h-xl1 ul:hover{
+    background-color: #dddddd;
+}
+.h-xl1 ul:hover li:nth-child(6){
+    background-color: #dd0010;
+}
+.h-xl1 ul:hover .tsa{
+    color: white;
+}
+.h-xlu1,.h-xlu2{
+    margin-top: 3px;
+    width: 353px;
+    height: 270px;
+    float: left;
+}
+.h-xlu2{
+    border-left: 1px solid #bbbbbb;
+    box-sizing: border-box;
+}
+
+.hd2 .h-xlu1 li,.hd2 .h-xlu2 li{
+    float: left;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+.hd2 .h-xlu1 li a{
+    font-size: 16px;
+}
+.hd2 .h-xlu2 li a{
+    font-size: 16px;
+}
+.h-xlu1 li:nth-child(1){
+    width: 70px;
+    height: 270px;
+    padding-top: 42px;
+}
+.h-xlu1 li:nth-child(2){
+    margin-top: 42px;
+}
+.h-xlu1 li:nth-child(6){
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 4px;
+    width: 175px;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.h-xlu2 li:nth-child(1){
+    margin-top: 42px;
+    margin-left: 20px !important;
+}
+/*----------------------------------------------第二个下拉菜单开始*/
+.h-xl2{
+    height: 310px;
+    width: 1412px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    box-shadow: 0px 3px 1px #888 inset;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.bdr:hover .h-xl2{
+    top: 53px;
+    opacity: 1;
+}
+.xl2-1{
+    width: 235px;
+    height: 310px;
+    float: left;
+    margin-top: 3px;
+}
+.xl2-1:hover{
+    background-color: #dddddd;
+}
+.xl2-1:hover .xl2-a2{
+    color: white;
+    background-color: #dd0010;
+}
+.xl2-1:hover h3{
+    color: blue;
+}
+.xl2-a1{
+    width: 235px;
+    height: 250px;
+    display: inline-block;
+}
+.xl2-a2{
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 0px;
+}
+/*------------------------------------------第三个下拉菜单开始*/
+.h-xl3{
+    height: 450px;
+    width: 1412px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    box-shadow: 0px 3px 1px #888 inset;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.xl3-a1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.h-xl3a{
+    height: 445px;
+    width: 282px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 0px 0px 30px;
+    float: left;
+    margin-top: 3px;
+}
+.h-xl3aa{
+    height: 445px;
+    width: 282px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 30px 0px 0px 20px;
+    float: left;
+    border-left: 1px solid #ccc;
+    margin-top: 3px;
+}
+.xl3-a1{
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+    width: auto;
+}
+
+.xl3-a2{
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+    left: -10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.xl3-a1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.xl3-a1>img{
+    width: 240px;
+    margin: 10px 0px 10px 0px;
+}
+.h-xl3a:hover{
+    background-color: #dddddd;
+}
+.h-xl3aa:hover{
+    background-color: #dddddd;
+}
+.h-xl3a:hover .xl3-a2{
+    color: white;
+    background-color: #dd0010;
+}
+.bdr:hover .h-xl3{
+    top: 53px;
+    opacity: 1;
+}
+/*---------------------------------------------第四个下拉菜单开始*/
+.h-xl4{
+    height: 340px;
+    width: 1412px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    box-shadow: 0px 3px 1px #888 inset;
+    overflow: hidden;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.h-xl4a{
+    height: 337px;
+    width: 282px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 0px 0px 30px;
+    float: left;
+    margin-top: 3px;
+    margin-top: 3px;
+}
+.xl4-a1{
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+    width: auto;
+}
+
+.xl4-a2{
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+    left: -10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.xl4-a1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.h-xl4a:hover{
+    background-color: #dddddd;
+}
+.h-xl4a:hover .xl4-a2{
+    color: white;
+    background-color: #dd0010;
+}
+.bdr:hover .h-xl4{
+    top: 53px;
+    opacity: 1;
+}
+/*------------------------------------------------------第五个下拉菜单开始*/
+.h-xl5{
+    height: 340px;
+    width: 1412px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    box-shadow: 0px 3px 1px #888 inset;
+    overflow: hidden;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.h-xl5a{
+    height: 337px;
+    width: 353px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 0px 0px 30px;
+    float: left;
+    margin-top: 3px;
+    margin-top: 3px;
+}
+.h-xl5b{
+    height: 337px;
+    width: 353px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 10px 0px 10px;
+    float: left;
+    margin-top: 3px;
+    margin-top: 3px;
+}
+.h-xl5b>p{
+    line-height: 30px;
+}
+.h-xl5b>img{
+    margin-left: 20px;
+}
+.xl5-a1{
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+    width: auto;
+}
+
+.xl5-a2{
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+    left: -10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.xl5-a1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.h-xl5a:hover{
+    background-color: #dddddd;
+}
+.h-xl5b:hover{
+    background-color: #dddddd;
+}
+
+.h-xl5a:hover .xl5-a2{
+    color: white;
+    background-color: #dd0010;
+}
+.bdr:hover .h-xl5{
+    top: 53px;
+    opacity: 1;
+}
+/*----------------------------------------------第六个下拉菜单开始*/
+.h-xl6{
+    height: 248px;
+    width: 1412px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    box-shadow: 0px 3px 1px #888 inset;
+    overflow: hidden;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.h-xl6a{
+    height: 245px;
+    width: 236px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+    float: left;
+    margin-top: 3px;
+}
+.xl6-a1{
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+    width: auto;
+}
+.xl6-a1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.h-xl6a:hover{
+    background-color: #dddddd;
+}
+.bdr:hover .h-xl6{
+    top: 53px;
+    opacity: 1;
+}
+
+
+
+
+
+
+

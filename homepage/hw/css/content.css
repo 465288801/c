@@ -1,0 +1,326 @@
+.content{
+    height: 2400px;
+    width: 100%;
+}
+.sport{
+    width: 100%;
+    height: 700px;
+    margin: 78px auto 0px;
+    position: relative;
+    overflow: hidden;
+}
+.sport1{
+    width: 3840px;
+    height: 700px;
+    padding: 0px;
+    position: absolute;
+    margin-left: -2880px;
+    left: 50%;
+    top: 0px;
+    animation: ban 16s linear 0s infinite normal;
+}
+.ban1,.ban2{
+    width: 1920px;
+    height: 700px;
+    display: inline-block;
+    position: relative;
+}
+@keyframes ban {
+    0%{
+        margin-left: -960px;
+    }
+    35%{
+        margin-left: -960px;
+    }
+    50%{
+        margin-left: -2880px;
+    }
+    85%{
+        margin-left: -2880px;
+    }
+    100%{
+        margin-left: -960px;
+    }
+}
+.b1-1{
+    position: absolute;
+    left: 1080px;
+    top: 200px;
+    z-index: 2;
+    animation: lgd1 16s linear 0s infinite normal;
+    opacity: 0;
+}
+@keyframes lgd1 {
+    0%{
+        opacity: 0;
+    }
+    3%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+}
+.lgd-1{
+    position: absolute;
+    left: 1200px;
+    top: 385px;
+    color: black;
+    width: 115px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #b02d2e;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    animation: lgd11 16s linear 0s infinite normal;
+    opacity: 0;
+}
+@keyframes lgd11 {
+    0%{
+        opacity: 0;
+    }
+    3%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+}
+.lgd-2{
+    position: absolute;
+    left: 1280px;
+    top: 470px;
+    color: black;
+    width: 115px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #b02d2e;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    animation: lgd2 16s linear 0s infinite normal;
+    opacity: 0;
+}
+@keyframes lgd2 {
+    0%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    53%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.sport1 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/*滚动广告结束*/
+/*下方图片开始*/
+.pic{
+    margin: 30px auto;
+    width: 1422px;
+    height: 1066px;
+    position: relative;
+    top: 0px;
+    height: 350px;
+}
+.pic a{
+    background-color: black;
+    display: inline-block;
+    }
+.pic img{
+    transition: all 0.5s;
+}
+.pic1{
+    width: 700px;
+    height: 730px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 100px;
+    animation: pic1 0.5s 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes pic1 {
+    from{
+        top: 100px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+.pic2{
+    width: 700px;
+    height: 355px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    animation: pic2 0.2s 0.3s;
+    animation-fill-mode: forwards;
+    position: relative;
+    left: 0px;
+    top: 80px;
+    opacity: 0;
+    position: relative;
+}
+@keyframes pic2 {
+    from{
+        top: 80px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+.pic3{
+    height: 355px;
+    width: 700px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-top: 19px;
+    animation: pic3 0.5s;
+    animation-fill-mode: forwards;
+    left: 0px;
+    top: 120px;
+    opacity: 0;
+    position: relative;
+}
+@keyframes pic3 {
+    from{
+        top: 120px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+.pic4{
+    height: 355px;
+    width: 700px;
+    overflow: hidden;
+    float: left;
+    margin-top: 15px;
+    animation: pic4 1s ;
+    animation-fill-mode: forwards;
+    left: 0px;
+    top: 30px;
+    opacity: 0;
+    position: relative;
+}
+@keyframes pic4 {
+    from{
+        top: 30px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+.pic5 {
+    height: 355px;
+    width: 700px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    animation: pic5 0.5s 0.2s;
+    animation-fill-mode: forwards;
+    left: 0px;
+    top: 120px;
+    opacity: 0;
+    position: relative;
+}
+@keyframes pic5 {
+    from{
+        top: 120px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+.pic img{
+    width: 730px;
+    height: auto;
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    bottom: 100px;
+    /*140*/
+    font-weight: normal;
+    width: 450px;
+    transition: bottom 0.5s;
+}
+.small{
+    color: white;
+    font-size: 16px;
+    width: 450px;
+    position: absolute;
+    left: 40px;
+    bottom: -20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.pic a:hover img{
+    opacity: 0.5;
+    margin-left: -30px;
+}
+.pic a:hover h5{
+    bottom: 140px;
+}
+.pic a:hover p{
+    bottom: 50px;
+    opacity: 1;
+}
+.pic6{
+    margin: 0px auto;
+    width: 1422px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+.pic66{
+    position: absolute;
+    width: 1422px;
+    height: 540px;
+    margin-left: -716px;
+    left: 50%;
+    top: 0px;
+}

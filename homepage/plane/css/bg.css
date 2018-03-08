@@ -1,0 +1,112 @@
+#body{
+    background-color: #ccc;
+}
+#bg{
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    background: url(images/Stars.png) 0px 0px repeat;
+    animation: move 15s linear 0s infinite normal;
+    overflow: hidden;
+}
+
+@keyframes move {
+    0%{
+        background: url(images/Stars.png) 0px 0px repeat;
+    }
+    10%{
+        background: url(images/Stars_large.png) 0px 45px repeat;
+    }
+    20%{
+        background: url(images/Stars.png) 0px 90px repeat;
+    }
+    30%{
+        background: url(images/Stars_large.png) 0px 135px repeat;
+    }
+    40%{
+        background: url(images/Stars.png) 0px 180px repeat;
+    }
+    50%{
+        background: url(images/Stars_large.png) 0px 225px repeat;
+    }
+    60%{
+        background: url(images/Stars.png) 0px 270px repeat;
+    }
+    70%{
+        background: url(images/Stars_large.png) 0px 315px repeat;
+    }
+    80%{
+        background: url(images/Stars.png) 0px 360px repeat;
+    }
+    90%{
+        background: url(images/Stars_large.png) 0px 405px repeat;
+    }
+    100%{
+        background: url(images/Stars.png) 0px 450px repeat;
+    }
+}
+
+.title{
+    width: 600px;
+    font-size:50px;
+    color: white;
+    margin-top: 150px;
+    float: left;
+    text-align: center;
+}
+a{
+    margin-left: 250px;
+    font-size: 25px;
+    color: white;
+    margin-top: 350px;
+    float: left;
+    text-align: center;
+    animation: begin 2s linear 0s infinite normal;
+}
+a:hover{
+    color: yellow;
+}
+@keyframes begin {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.set{
+    width: 600px;
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+}
+.set1{
+    width: 600px;
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+}
+#begin{
+    display: block;
+    width: 600px;
+    height: 800px;
+}
+.rock{
+    background: url(images/Rock.png);
+    width: 66px;
+    height: 70px;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+}
