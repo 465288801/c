@@ -1,0 +1,314 @@
+html {overflow-y:scroll;height:100%;}
+body {margin:0; padding:0; font:12px"微软雅黑\5B8B\4F53",sans-serif;background:#ffffff;height:100%;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;
+    font-size: 16px; color: #666;}
+table,td,tr,th{font-size:16px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+#cont{
+    width: 100%;
+    height: 100%;
+    background: url("img/bg.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    min-height: 600px;
+}
+#cont-1{
+    width: 100%;
+    height: 500%;
+    position: relative;
+    top: 0%;
+}
+#nav{
+    position: fixed;
+    top: 25%;
+    left: 35px;
+    width: 50px;
+    height: 300px;
+}
+#di{
+    width: 100%;
+    height: 100%;
+    background: url("img/bg.jpg") no-repeat;
+    background-size:cover;
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5, MakeShadow=false);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    min-height: 600px;
+}
+#nav .btn-p{
+    line-height: 15px;
+    margin-left: 9px;
+    margin-bottom: 3px;
+    height: 30px;
+    border-left: 2px dotted #1fc8f0;
+    box-sizing: border-box;
+}
+.btn{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 4px solid #1fc8f0;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg)
+}
+#ess{
+    width: 70%;
+    height: 14%;
+    min-width: 800px;
+    min-height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 3%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px black;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#ess p,#job p,#order p{
+    font-size: 24px;
+    line-height: 50px;
+    color: black;
+    margin-left: 20px;
+}
+#skill p{
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    margin-left: 20px;
+}
+.bt{
+    font-size: 35px;
+    margin: 0px 0px 20px 0px;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+#photo{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 55%;
+    top: 20%;
+    border: 0px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 3px black;
+}
+#photo img{
+    width: 100%;
+    height: 100%;
+}
+#job{
+    width: 70%;
+    height: 14%;
+    min-width: 800px;
+    min-height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 23%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px black;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#skill{
+    width: 70%;
+    height: 14%;
+    min-width: 800px;
+    min-height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 43%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px black;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#pro{
+    width: 70%;
+    height: 14%;
+    min-width: 800px;
+    min-height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 63%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px black;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#order{
+    width: 70%;
+    height: 14%;
+    min-width: 800px;
+    min-height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 83%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px black;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.pro{
+    width: 25%;
+    height: 85%;
+    float: left;
+    margin-left: 6%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.pro img{
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 5px 3px black;
+    transition: all 0.3s;
+}
+.pro-1{
+    font-size: 24px;
+    color: #000;
+}
+.pro-2{
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+}
+
+.pro img:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 8px 5px black;
+}
+
+#call{
+    position: fixed;
+    top: 25%;
+    right: -80px;
+    width: 80px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px black;
+    background-color: #555;
+    transition: all 0.5s;
+}
+#call:hover{
+    right: 0px;
+}
+#lxw{
+    position: absolute;
+    left: -25px;
+    top: 75px;
+    width: 30px;
+    font-size: 25px;
+    z-index: 1;
+    background-color: #555;
+    box-shadow: -5px 0px 5px 0px black;
+    border-radius: 5px;
+    color: white;
+}
+#qq{
+    background: url("img/QQ.png") no-repeat center;
+    background-size: 70%;
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+}
+#qq:hover{
+    background-color: #333;
+    z-index: 3;
+}
+#wx{
+    background: url("img/wx.png") no-repeat center;
+    background-size: 70%;
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+}
+#wx:hover{
+    background-color: #333;
+    z-index: 3;
+}
+#em{
+    width: 80px;
+    height: 80px;
+    color: #000;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+}
+#em:hover{
+    background-color: #333;
+    z-index: 3;
+}
+
+.active{
+    background: #e4de84;
+}
+#qq img{
+    width: 200px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    left: -230px;
+    top: -50px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+#wx img{
+    width: 200px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    left: -230px;
+    top: -50px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+#em div{
+    width: 200px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    left: -200px;
+    top: 20px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #ccc;
+    color: #333;
+    line-height: 40px;
+}
+#call div:hover .tc{
+    display: block;
+}
